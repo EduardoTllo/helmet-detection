@@ -1,0 +1,11 @@
+# Data, trained models and generated files stay out of the repository
+data/*
+!data/README.md
+models/*
+!models/README.md
+outputs/
+
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
