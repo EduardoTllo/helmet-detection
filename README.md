@@ -131,7 +131,7 @@ The data is **not** in this repository. Place it in `data/` as shown in [data/RE
 
 ## 5. How to run it
 
-**Requirements:** Python 3.12, about 3 GB of free disk space, and preferably a GPU. A Mac with Apple Silicon works (Keypoint R-CNN uses the Mac GPU). Everything also runs on a CPU, more slowly.
+**Requirements:** Python 3.12, about 3 GB of free disk space, and preferably a GPU.
 
 ```bash
 git clone https://github.com/EduardoTllo/helmet-detection.git
