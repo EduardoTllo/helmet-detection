@@ -201,5 +201,3 @@ Each notebook starts with a short explanation of what it does and why, and ends 
 | Keypoint R-CNN (torchvision) | BSD-3-Clause; weights trained on COCO |
 | ResNet50 ImageNet weights (Keras) | ImageNet terms of use (non-commercial research) |
 | SHWD | Research use; its helmet photos were collected from Google and Baidu |
-
-Because of SHWD, COCO and ImageNet, this work is a **research prototype**. A commercial product would need training data that is our own or licensed.
