@@ -61,7 +61,7 @@ We got here in steps. First we trained a color model on our own helmet photos (M
 | **Train / val / test** | Training photos teach the model. *Val* photos decide when to stop training. *Test* photos are used once, at the end, to measure the result on photos the model never saw. |
 | **Confusion matrix** | A table that counts images by true class (rows) and predicted class (columns). Correct answers are on the diagonal. |
 | **Sensitivity "no helmet"** | Of all heads without a helmet, the share the system found. This is the most important number for safety: a worker without a helmet marked as protected is the dangerous error. |
-| **End to end** | Of all labeled heads in the test photos, the share the full system found **and** labeled correctly, starting from the raw photo. A head the system missed counts as an error. |
+
 
 ## 3. Results
 
