@@ -91,7 +91,7 @@ These numbers assume the head is already cropped well, using the boxes drawn by 
 
 All 3 were measured on the same 6,716 labeled heads of the SHWD test photos, from the raw photo to the answer.
 
-| Strategy | Notebook | End to end |
+| Strategy | Notebook | Found and correct |
 |---|---|---|
 | Fixed rule: crop the top 35% of the person box | 07 | 16.1% |
 | Body keypoints locate the head | 09 | 67.1% |
@@ -113,7 +113,7 @@ When a head was found, the helmet decision was right in about 98% of cases. The 
 | No helmet (5,433) | 3,766 | 50 | 1,617 |
 | Helmet (1,283) | 26 | 1,051 | 206 |
 
-- 3,766 + 1,051 = 4,817 of 6,716 heads correct = **71.7%** end to end.
+- 3,766 + 1,051 = 4,817 of 6,716 heads correct = **71.7%** found and correct.
 - "Not found" = no person box held the head. Most of them are small heads in classroom photos.
 - **The color was not measured**, because SHWD has no color labels. By eye: green, yellow and orange were mostly right; white helmets went to "other color"; opaque red helmets went to "other color" or orange (our red helmet is translucent and dark).
 
